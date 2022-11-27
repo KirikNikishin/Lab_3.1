@@ -43,48 +43,8 @@ int main()
             cout << s[i] << endl;
         }
     }
-    /*for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << endl;
-    }*/
-
-
-  /*  for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
-        std::smatch match = *i;
-        std::string match_str = match.str();
-        int to_decimal = 0;
-        int pow = 0;
-        for (std::iterator<std::string> iter = --match_str.end(); iter != --match_str.begin(); --iter,++pow)
-        {
-            if (*iter == '1')
-            {
-                to_decimal += 1 << pow;
-            }
-        }
-        std::cout << to_decimal << '\n';
-    }*/
-
     
 }
-
-
-//#include <iostream>
-//#include <regex>
-//#include <string>
-//using namespace std;
-//
-//int main() {
-//
-//	string str = "10100101000=01";
-//	cmatch result;
-//	regex regular("([0-1]{2,20})"); // ("email") for search word email
-//
-//	for (int i = 0; i < )
-//	if (regex_search(str.c_str(), result, regular)) {
-//		for (int i = 0; i < result.size(); i++) {
-//			cout << result[i] << endl;
-//		}
-//	}
-//}
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
