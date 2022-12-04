@@ -6,30 +6,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-//using namespace std;
 
-//std::vector<int> Searching(std::sregex_iterator words_begin, std::sregex_iterator words_end) {
-//
-//    std::vector<int> count_arr;
-//    for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
-//        std::smatch match = *i;
-//        std::string match_str = match.str();
-//        int size_ = sizeof(match_str) / sizeof(match_str[0]);
-//        int power = 0;
-//        int count = 0;
-//        //std::cout << match_str << std::endl;
-//        for (int i = match_str.length() - 1; i >= 0; i--) {
-//            if (match_str[i] == '1') {
-//                count += pow(2, power);
-//            }
-//            power += 1;
-//        }
-//        if (count != 0 and match_str != "0" and count % 3==0) {
-//            count_arr.push_back(count);
-//        }
-//    }
-//    return count_arr;
-//}
 int main()
 {
     std::string s[6] = { "158", "Lorem 111 Ipsum", "1001 nights", "100001", "10111", "10101011"};
